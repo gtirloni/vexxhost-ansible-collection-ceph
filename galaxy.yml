@@ -1,6 +1,6 @@
 namespace: vexxhost
 name: ceph
-version: 3.0.1 # x-release-please-version
+version: 3.1.0 # x-release-please-version
 readme: README.md
 authors:
   - Mohammed Naser <mnaser@vexxhost.com>
@@ -8,9 +8,9 @@ description: Ansible collection for deploying Ceph clusters
 license:
   - GPL-3.0-or-later
 dependencies:
-  community.general: ">=4.5.0"
-  ansible.utils: 2.9.0
-  vexxhost.containers: ">=1.1.1"
+  community.general: ">=8.5.0"
+  ansible.utils: ">=3.0.0"
+  vexxhost.containers: ">=1.2.0"
 tags:
   - application
   - cloud
